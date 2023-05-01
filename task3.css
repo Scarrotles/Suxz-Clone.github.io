@@ -1008,10 +1008,11 @@ nav{
     right: 15px;
 }
 .hamburger:hover{
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(140,130,252);
 }
-.ham{
-    text-align: right;
+.hamburger:active{
+    background-color: rgb(76, 76, 76);
 }
 
 /* HERO */
@@ -1478,11 +1479,11 @@ nav{
     top: 25px;
 }
 .hamburger:hover{
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(140,130,252);
 }
-.ham{
-    justify-content: end;
-    text-align: right;
+.hamburger:active{
+    background-color: rgb(76, 76, 76);
 }
 
 /* HERO */
